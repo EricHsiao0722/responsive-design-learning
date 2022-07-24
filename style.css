@@ -1,0 +1,20 @@
+.box{
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+    font-size: 50px;
+    display: none;
+}
+
+@media(max-width: 400px){
+    #box1{
+        display: block;
+    }
+}
+
+@media(min-width: 401px)and (max-width: 600px){
+    #box2{
+        display: block;
+        background-color: blanchedalmond;
+    }
+}
